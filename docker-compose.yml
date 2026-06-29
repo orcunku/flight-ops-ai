@@ -1,0 +1,16 @@
+# Convenience runner.  Usage:
+#   docker compose up flightops          # demo (mock mode)
+#   docker compose run --rm evals        # eval suite
+# To run live, create a .env file with: ANTHROPIC_API_KEY=sk-...
+services:
+  flightops:
+    build: .
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    command: python main.py
+
+  evals:
+    build: .
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY:-}
+    command: python -m evals.run_evals
