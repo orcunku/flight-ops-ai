@@ -1,11 +1,11 @@
 # ✈️ FlightOps AI — Multi-Agent Flight Disruption Management System
 
-[![CI](https://github.com/YOUR_USERNAME/flight-ops-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/flight-ops-ai/actions/workflows/ci.yml)
+[![CI](https://github.com/orcunku/flight-ops-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/orcunku/flight-ops-ai/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/flight-ops-ai/blob/main/FlightOps_AI_Colab.ipynb)
 
-> Replace `YOUR_USERNAME` in the badge URL above with your GitHub username after you push.
+
 
 A production-style **3-agent system** that detects flight disruptions, assesses passenger
 impact, and generates re-accommodation plans — built to showcase the skills recruiters
