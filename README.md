@@ -8,8 +8,7 @@
 
 
 A production-style **3-agent system** that detects flight disruptions, assesses passenger
-impact, and generates re-accommodation plans — built to showcase the skills recruiters
-screen for in 2026: **agent orchestration, tool calling, RAG, structured outputs, and evals.**
+impact, and generates re-accommodation plans: **agent orchestration, tool calling, RAG, structured outputs, and evals.**
 
 ## Why this matters (aviation context)
 When a flight is delayed or cancelled, airlines must rebook passengers, honor regulations
@@ -35,7 +34,7 @@ When a flight is delayed or cancelled, airlines must rebook passengers, honor re
 > Max 3 specialist agents under one orchestrator (the orchestrator is coordination logic,
 > not a 4th specialist).
 
-## Skills demonstrated (the part recruiters scan)
+## Skills demonstrated 
 - **Multi-agent orchestration** — planner/router that delegates to specialists
 - **Tool / function calling** — typed tools (weather, flight search, rebooking)
 - **RAG** — regulation retrieval over an embedded knowledge base
